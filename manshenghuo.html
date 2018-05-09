@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>我的相册</title>
+		<meta charset="utf-8">
+		<link href="css/base.css" rel="stylesheet">
+		<link href="css/msh.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/xiangce styles.css" />
+		<link rel="stylesheet" href="css/xiangce demo.css" />
+		<script src="js/xiangce.min.js"></script>
+
+		<script src="js/xiangce.packed.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#xiangce').iPresenter({
+					animSpeed: 2000,
+					timer: '360Bar',
+					timerDiameter: 60,
+					timerStroke: 5,
+					timerPadding: 5,
+					timerColor: '#000',
+					timerBg: '#FFF',
+					timerOpacity: 0.4,
+					directionNav: false,
+					controlNav: true
+				});
+			});
+		</script>
+
+	</head>
+
+	<body>
+<header>
+  <div class="logo" data-scroll-reveal="enter right over 1s"><a href="/"><img src="images/logo.png"></a></div>
+  <nav class="topnav" data-scroll-reveal="enter bottom over 1s after 1s"><a href="index.html"><span>主页</span><span class="en">Home</span></a><a href="about.html"><span>我</span><span class="en">About</span></a><a href="manshenghuo.html"><span>相册</span><span class="en">Life</span></a><a href="learn.html"><span>碎言碎语</span><span class="en">Doing</span></a><a href="mbfx.html"></a></nav>
+</header>
+	<article>
+		<div class="container">
+		<h2 class="ctitle"><b>相册</b></h2>
+		<div id="xiangce">
+			<div class="step" data-x="0" data-y="0" data-thumbnail="img/thumbs/1.jpg">
+				<img src="img/photos/1.jpg" />
+			</div>
+
+			<div class="step" data-x="1500" data-y="0" data-rotatex="180" data-easing="easeInOutQuint" data-pausetime="1500" data-thumbnail="img/thumbs/2.jpg">
+				<img src="img/photos/2.jpg" />
+			</div>
+
+			<div class="step" data-x="3000" data-y="0" data-rotatey="180" data-pausetime="2000" data-thumbnail="img/thumbs/3.jpg">
+				<img src="img/photos/3.jpg" />
+			</div>
+
+			<div class="step" data-x="4500" data-y="0" data-rotatex="180" data-thumbnail="img/thumbs/4.jpg">
+				<img src="img/photos/4.jpg" />
+			</div>
+
+			<div class="step" data-x="6000" data-y="0" data-rotate="180" data-thumbnail="img/thumbs/5.jpg">
+				<img src="img/photos/5.jpg" />
+			</div>
+
+			<div class="step" data-x="7500" data-y="0" data-rotatey="180" data-thumbnail="img/thumbs/6.jpg">
+				<img src="img/photos/6.jpg" />
+			</div>
+
+			<div class="step" data-x="9000" data-y="0" data-thumbnail="img/thumbs/7.jpg">
+				<img src="img/photos/7.jpg" />
+			</div>
+
+			<div class="step" data-x="10500" data-y="0" data-rotate="80" data-thumbnail="img/thumbs/8.jpg">
+				<img src="img/photos/8.jpg" />
+			</div>
+
+			<div class="step" data-x="12000" data-y="0" data-rotatex="180" data-thumbnail="img/thumbs/9.jpg">
+				<img src="img/photos/9.jpg" />
+			</div>
+
+			
+	</div>
+</article>
+	</body>
+</html>
